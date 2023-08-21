@@ -11,7 +11,7 @@ public class Facturacion {
     public Facturacion(Peluqueria peluqueria) {
         this.peluqueria = peluqueria;
     }
-
+//adios
     public void generarFactura() {
         // Solicitar número de reserva al cliente
         String numeroReserva = JOptionPane.showInputDialog(null, "Ingrese el número de reserva:");

@@ -15,7 +15,7 @@ public class Peluqueria {
     private String usuarioAutenticado;
 
     public Peluqueria() {
-        // comentario 2
+        // comentario  pap
         usuarios = new HashMap<>();
         reservas = new HashMap<>();
         capacidadSimultanea = 3;
@@ -24,7 +24,7 @@ public class Peluqueria {
         usuarioAutenticado = null;
         crearUsuarioAdmin();
     }
-
+//no se programar hola
     private void crearUsuarioAdmin() {
         Usuario admin = new Usuario("admin", "admin123");
         usuarios.put(admin.getNombre(), admin);

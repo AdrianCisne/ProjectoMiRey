@@ -15,6 +15,7 @@ public class Peluqueria {
     private String usuarioAutenticado;
 
     public Peluqueria() {
+        // comentario 2
         usuarios = new HashMap<>();
         reservas = new HashMap<>();
         capacidadSimultanea = 3;

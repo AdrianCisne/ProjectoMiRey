@@ -4,6 +4,7 @@ import java.util.List;
 import javax.swing.JOptionPane;
 
 public class Facturacion {
+    // comentario
 
     private Peluqueria peluqueria;
 

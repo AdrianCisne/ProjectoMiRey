@@ -1,10 +1,10 @@
 package com.mycompany.peluqueriamirey;
 
 public class Reserva {
-    private final String condicion;
-    private final int horaReserva;
-    private final String nombrePeluquero;
-    private final String numeroReserva;
+    private String condicion;
+    private int horaReserva;
+    private String nombrePeluquero;
+    private String numeroReserva;
 
     public Reserva(String condicion, int horaReserva, String nombrePeluquero, String numeroReserva) {
         this.condicion = condicion;
@@ -13,23 +13,25 @@ public class Reserva {
         this.numeroReserva = numeroReserva;
     }
 
-    public String getCondicion() {
-        return condicion;
+    // Métodos getter para los atributos aquí
+
+    AbstractStringBuilder getCondicion() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    public int getHoraReserva() {
-        return horaReserva;
+    AbstractStringBuilder getHoraReserva() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    public String getNombrePeluquero() {
-        return nombrePeluquero;
+    AbstractStringBuilder getNombrePeluquero() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    public String getNumeroReserva() {
-        return numeroReserva;
+    AbstractStringBuilder getNumeroReserva() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    int getCantidadPersonas() {
+    java.lang.AbstractStringBuilder getCantidadPersonas() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

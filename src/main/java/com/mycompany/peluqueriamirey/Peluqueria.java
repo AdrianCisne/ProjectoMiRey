@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import javax.swing.JOptionPane;
 
 public class Peluqueria {
     private Map<String, Usuario> usuarios;
@@ -15,7 +14,6 @@ public class Peluqueria {
     private String usuarioAutenticado;
 
     public Peluqueria() {
-        // comentario  pap
         usuarios = new HashMap<>();
         reservas = new HashMap<>();
         capacidadSimultanea = 3;
@@ -24,14 +22,16 @@ public class Peluqueria {
         usuarioAutenticado = null;
         crearUsuarioAdmin();
     }
-//no se programar hola
+
     private void crearUsuarioAdmin() {
         Usuario admin = new Usuario("admin", "admin123");
         usuarios.put(admin.getNombre(), admin);
     }
 
     public void ejecutar() {
+        
         // Lógica principal del programa
+        
         crearUsuarioAdmin(); // Crear un usuario administrador para acceder al módulo de reservas
 
         boolean salir = false;

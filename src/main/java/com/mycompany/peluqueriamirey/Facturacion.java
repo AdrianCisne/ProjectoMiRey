@@ -4,14 +4,12 @@ import java.util.List;
 import javax.swing.JOptionPane;
 
 public class Facturacion {
-    // comentario
 
-    private Peluqueria peluqueria;
+    private final Peluqueria peluqueria;
 
     public Facturacion(Peluqueria peluqueria) {
         this.peluqueria = peluqueria;
     }
-//adios
     public void generarFactura() {
         // Solicitar número de reserva al cliente
         String numeroReserva = JOptionPane.showInputDialog(null, "Ingrese el número de reserva:");
